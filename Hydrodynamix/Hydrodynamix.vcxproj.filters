@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Dateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Dateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Dateien">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Dateien">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug">
+      <UniqueIdentifier>{d8249b5d-9c2d-480d-8cf9-431afd6c2515}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release">
+      <UniqueIdentifier>{fe983029-2458-4336-9de5-fe43fff8e93a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{b98fc209-62fe-48f4-b3a1-0f394c2e2dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\IO">
+      <UniqueIdentifier>{92578e93-b8a9-46f0-b660-1750cef5e21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\Scene">
+      <UniqueIdentifier>{b70338d2-ea4f-4f67-ac47-7b8c263b26c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\IO">
+      <UniqueIdentifier>{9d21a807-3a2f-4430-aa00-066a459f353f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\Scene">
+      <UniqueIdentifier>{521d352a-4dcc-4cb0-82ba-7ca912da6c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\Utils">
+      <UniqueIdentifier>{5e0c7ff9-5512-4f3b-a137-06af2fbe2f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\Utils">
+      <UniqueIdentifier>{c4db494f-4074-4a94-8e07-1b17237570df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\Data">
+      <UniqueIdentifier>{a5a076f3-62e1-4e61-bf01-8921d4c08681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\Computation">
+      <UniqueIdentifier>{4ac49cab-d847-458c-a942-3b5f71277ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\Data">
+      <UniqueIdentifier>{cb74fd71-67d4-44e8-9366-56f2de5ad17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{9ddc461c-6d73-474f-81eb-d669e2c06a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\ConfigFileTest">
+      <UniqueIdentifier>{b69276a4-8bb0-44d5-98ff-1533fdde54ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\ModelFileTest">
+      <UniqueIdentifier>{dcc92543-3fd9-4e5f-a51c-76ad3eefc94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\Computation">
+      <UniqueIdentifier>{22bdd48e-f958-4d7e-9bb3-dda5c477c68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\Core">
+      <UniqueIdentifier>{7015c168-2e02-4fad-ac9d-0b13032534aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\Core">
+      <UniqueIdentifier>{8c2ab8b5-6f71-49a8-8c20-558f338dfdb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_hydrodynamix.cpp">
+      <Filter>Generierte Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WorldScene.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WorldScene.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractRender.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractRender.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractScene.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractScene.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ParticleRender.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ParticleRender.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SimulationRoomRender.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SimulationRoomRender.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\WorldScene.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Camera.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ParticleRender.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PerspectiveCamera.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SimulationRoomRender.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWidget.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GLWidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GLWidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\ConfigFile.cpp">
+      <Filter>Source Dateien\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\UniformBufferObject.cpp">
+      <Filter>Source Dateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\CameraControl.cpp">
+      <Filter>Source Dateien\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\ModelFile.cpp">
+      <Filter>Source Dateien\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModelRender.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModelRender.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ModelRender.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SimpleBatchRender.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SimpleBatchRender.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SimpleBatchRender.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModelLoaderThread.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModelLoaderThread.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\ModelLoaderThread.cpp">
+      <Filter>Source Dateien\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ModelManager.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ModelInstance.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModelManager.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModelManager.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModelInstance.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModelInstance.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ConfigFileTest\ConfigFileTest.cpp">
+      <Filter>Test\ConfigFileTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ModelFileTest\ModelFileTest.cpp">
+      <Filter>Test\ModelFileTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BoundingBox.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Computation\CudaHelper.cpp">
+      <Filter>Source Dateien\Computation</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GridSolver.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GridSolver.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Computation\GridSolver.cpp">
+      <Filter>Source Dateien\Computation</Filter>
+    </ClCompile>
+    <ClCompile Include="Computation\SPHSolver.cpp">
+      <Filter>Source Dateien\Computation</Filter>
+    </ClCompile>
+    <ClCompile Include="Computation\SolverManager.cpp">
+      <Filter>Source Dateien\Computation</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\OpenGLFunctions.cpp">
+      <Filter>Source Dateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BoundingBox.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractSolver.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SolverManager.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SPHSolver.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractShaderCollection.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractShaderCollection.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ParticleShaderCollection.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ParticleShaderCollection.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ParticleShaderCollection.cpp">
+      <Filter>Source Dateien\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractInteractionManager.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UserInteractionManager.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UserInteractionManager.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\UserInteractionManager.cpp">
+      <Filter>Source Dateien\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractInteraction.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractInteractionManager.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractInteraction.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WaterBlockInteraction.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\WaterBlockInteraction.cpp">
+      <Filter>Source Dateien\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WaterBlockInteraction.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_KeyInteraction.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_KeyInteraction.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\KeyInteraction.cpp">
+      <Filter>Source Dateien\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SimulationConfig.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SimulationConfig.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\SimulationConfig.cpp">
+      <Filter>Source Dateien\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractSolver.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SPHSolver.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SolverManager.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WaterJetInteraction.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\WaterJetInteraction.cpp">
+      <Filter>Source Dateien\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WaterJetInteraction.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InputManager.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InputManager.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\InputManager.cpp">
+      <Filter>Source Dateien\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CameraControl.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CameraControl.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractEngine.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractEngine.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ParticleEngine.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ParticleEngine.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ParticleEngine.cpp">
+      <Filter>Source Dateien\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_hydrodynamix.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Camera.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PerspectiveCamera.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.hpp">
+      <Filter>Header Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\ConfigFile.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\UniformBufferObject.hpp">
+      <Filter>Header Dateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>Header Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\MetaTypeRegistration.hpp">
+      <Filter>Header Dateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\ModelFile.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Computation\Operators.hpp">
+      <Filter>Header Dateien\Computation</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\ParticleData.hpp">
+      <Filter>Header Dateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BoundingBox.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Computation\CudaHelper.hpp">
+      <Filter>Header Dateien\Computation</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\GridData.hpp">
+      <Filter>Header Dateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Computation\KernelHelper.cuh">
+      <Filter>Header Dateien\Computation</Filter>
+    </ClInclude>
+    <ClInclude Include="Computation\GridKernel.cuh">
+      <Filter>Header Dateien\Computation</Filter>
+    </ClInclude>
+    <ClInclude Include="Computation\CudaPointer.hpp">
+      <Filter>Header Dateien\Computation</Filter>
+    </ClInclude>
+    <ClInclude Include="Computation\SPHKernel.cuh">
+      <Filter>Header Dateien\Computation</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\RandomSet.hpp">
+      <Filter>Header Dateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\PhysicalProperties.hpp">
+      <Filter>Header Dateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\OpenGLFunctions.hpp">
+      <Filter>Header Dateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BoundingBox.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\GeneralProperties.hpp">
+      <Filter>Header Dateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\ComputeProperties.hpp">
+      <Filter>Header Dateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\PropertyStore.hpp">
+      <Filter>Header Dateien\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="hydrodynamix.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hydrodynamix.qrc">
+      <Filter>Resource Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\WorldScene.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\AbstractRender.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\AbstractScene.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ParticleRender.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\SimulationRoomRender.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GLWidget.hpp">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWindow.hpp">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ModelRender.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\SimpleBatchRender.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IO\ModelLoaderThread.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ModelManager.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ModelInstance.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Computation\GridSolver.hpp">
+      <Filter>Header Dateien\Computation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Computation\SPHSolver.hpp">
+      <Filter>Header Dateien\Computation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Computation\AbstractSolver.hpp">
+      <Filter>Header Dateien\Computation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Computation\SolverManager.hpp">
+      <Filter>Header Dateien\Computation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\AbstractShaderCollection.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ParticleShaderCollection.hpp">
+      <Filter>Header Dateien\Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IO\AbstractInteractionManager.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IO\UserInteractionManager.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IO\AbstractInteraction.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IO\WaterBlockInteraction.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IO\KeyInteraction.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Data\SimulationConfig.hpp">
+      <Filter>Header Dateien\Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IO\WaterJetInteraction.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IO\InputManager.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IO\CameraControl.hpp">
+      <Filter>Header Dateien\IO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Core\AbstractEngine.hpp">
+      <Filter>Header Dateien\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Core\ParticleEngine.hpp">
+      <Filter>Header Dateien\Core</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\ParticleFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\ParticleVertex.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\RoomOutlineFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\RoomOutlineVertex.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\RoomWallFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\RoomWallVertex.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\RoomGridFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\RoomGridVertex.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\ModelFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\ModelVertex.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Test\ConfigFileTest\test.ini">
+      <Filter>Test\ConfigFileTest</Filter>
+    </None>
+    <None Include="Shader\ParticleDepthFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\ParticleCurvatureFlowFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\ParticleLiquidFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\ParticleScreenVertex.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\ParticleThicknessFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\ParticleBlurFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="hydrodynamix.qss">
+      <Filter>Form Dateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Hydrodynamix.rc">
+      <Filter>Resource Dateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Computation\SPHKernel.cu">
+      <Filter>Source Dateien\Computation</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Computation\KernelHelper.cu">
+      <Filter>Source Dateien\Computation</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Computation\GridKernel.cu">
+      <Filter>Source Dateien\Computation</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
